@@ -22,3 +22,14 @@ This code is printing a prompt stating what the game is and requesting input fro
 Next, we'll create a variable too store the user input, like this:
 
 > let mut guess = String::new();
+
+Now the program is getting interesting! There's a lot going on in this little line. We use the let statement to craete the variable. Here's another example:
+
+> let apples = 5;
+
+This line created a variable named apples and binds it to the value 5. In Rust, variables are immutable by default, meaning once we give the variable a value, the value won't change. We'll be discussing this concept in detail in the Variable and Mutability section in chapter 3. To make a variable mutable, we add mut before the variable name.
+
+> let apples = 5 // immutable
+> let mut bananas = 5 // mutable
+
+> The syntax // starts a comment that continues until the end of the line. Rust ignores everything in comments. We'll discuss comment in more detail in chapter 3.
